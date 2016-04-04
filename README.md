@@ -1,5 +1,5 @@
 # Overview
-This project is a simple Docker image that runs [Consul Replicate](https://github.com/hashicorp/consul-replicate), saving you from having to install it.
+This project is a simple Docker image that runs [Vault SSH Helper](https://github.com/hashicorp/vault-ssh-helper), saving you from having to install it.
 
 # Prerequisites
 * a working [Docker](http://docker.io) engine
@@ -15,7 +15,7 @@ Docker Compose will automatically install the newly built image into the cache.
 
 ## Launching The Image
 
-`docker-compose up` will launch the image, proving it built correctly.  For everyday use, run `./consul-replicate.sh`.
+`docker-compose up` will launch the image, proving it built correctly.  For everyday use, run `./vault-ssh-helper.sh`.
 
 # Troubleshooting
 

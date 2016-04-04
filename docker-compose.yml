@@ -1,6 +1,6 @@
 version: '2'
 services:
-    consul-replicate:
+    vault-ssh-helper:
         build: .
         network_mode: "host"
         volumes:
